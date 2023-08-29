@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    /*background-color: rgb(60, 150, 255);*/
+    background-color: rgb(150 0 0);
+    justify-content: space-between;
+    color: white;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+body{
+    background-color: lightgray;
+}
+.interior{
+  /*display: inline-table;*/
+  display: flex; 
+  
+}
+.producto{
+  display: block;
+  margin-top: 3px;
+  border-color: black;
+  border-style: double;
+  font-family: 'Courier New', Courier, monospace;        
+  width: 125%;
+  padding: 5px;
+  position: relative;
+}
+.containerimagem{  
+  display: flex;  
+  flex-direction: column;
+  block-size: 50px 50px;
+  margin: 2px;
+  padding: 10pt;
+  align-items: center;
+}
+.imagem{
+  width: 100%;
+}
+button{
+  display: block;
+  background-color: green;  
+  width: 100%;
+  height: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  bottom: 0;    
+}
+
+
+
+
+
+
