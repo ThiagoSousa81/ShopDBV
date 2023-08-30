@@ -39,10 +39,8 @@
     <?php
 session_start();
 if(isset($_SESSION['ID_USER']))
-{ //Thiago Sousa -> 926380
-  // Ridalva Souza -> 925500
-  //echo $_SESSION['ID_USER'];
-  $cls->conectar("epiz_33087609_Users", "sql107.epizy.com", "epiz_33087609", "OpCrBfrw9GxRPNZ");
+{ 
+  $cls->conectar("xxxxxxx", "xxxxxxxxxx", "xxxxxx", "xxxxxx");
   $dados = $cls->GetData($_SESSION['ID_USER']);
 
   $compras = $cls->GetComp($_SESSION['ID_USER']);
@@ -117,10 +115,10 @@ if(isset($_SESSION['ID_USER']))
 }  // <------< confirmadamente correto
     session_start();
     if (isset($_SESSION['ID_USER'])) {
-        $servidor = 'sql107.epizy.com';
-        $username = 'epiz_33087609';
-        $password = 'OpCrBfrw9GxRPNZ';
-        $database = 'epiz_33087609_Users';
+        $servidor = 'xxxxxxx';
+        $username = 'xxxxxxxx';
+        $password = 'xxxxxxxxx';
+        $database = 'xxxxxxxxxx';
         $conexao = mysql_connect($servidor, $username, $password) 
 				or die("Erro ao conectar ao banco de dados");
 	        $db = mysql_select_db($database)
