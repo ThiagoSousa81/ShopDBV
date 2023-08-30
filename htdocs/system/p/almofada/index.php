@@ -35,11 +35,9 @@
     <body>
 <?php
 session_start();
-$cls->conectar("epiz_33087609_Users", "sql107.epizy.com", "epiz_33087609", "OpCrBfrw9GxRPNZ");
+$cls->conectar("xxxxxxxxxx", "xxxxxxxxx", "xxxxxxxxxxx", "xxxxxxxxxx");
 if(isset($_SESSION['ID_USER']))
-{ //Thiago Sousa -> 926380
-  // Ridalva Souza -> 925500
-  //echo $_SESSION['ID_USER'];  
+{ 
   $dados = $cls->GetData($_SESSION['ID_USER']);  
   /*
   $id = $dados[0];
