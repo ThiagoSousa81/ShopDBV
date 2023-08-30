@@ -41,7 +41,7 @@ if(isset($_SESSION['ID_USER']))
   // Ridalva Souza -> 925500
   //echo $_SESSION['ID_USER']; 
   global $msg;   
-  $cls->conectar("epiz_33087609_Users", "sql107.epizy.com", "epiz_33087609", "OpCrBfrw9GxRPNZ");
+  $cls->conectar("xxxxxxx", "xxxxxxxxxx", "xxxxxx", "xxxxxxx");
   $dados = $cls->GetData($_SESSION['ID_USER']);
   $producto = $cls->GetProd('1000011');
   //-----------------------------Estava escrevendo aqui
@@ -50,10 +50,10 @@ if(isset($_SESSION['ID_USER']))
     $hour = $now->format('H:i');
     if (!$producto[3] == 0) {                
         try {
-            $servidor = 'sql107.epizy.com';
-            $username = 'epiz_33087609';
-            $password = 'OpCrBfrw9GxRPNZ';
-            $database = 'epiz_33087609_Users';
+            $servidor = 'sxxxxxxxx';
+            $username = 'xxxxxxxxx';
+            $password = 'xxxxxxxxx';
+            $database = 'xxxxxxxxxxxxxx';
             $conexao = mysql_connect($servidor, $username, $password) 
                     or die("Erro ao conectar ao banco de dados");
                 $db = mysql_select_db($database)
