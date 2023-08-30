@@ -39,7 +39,7 @@
 
             if(!empty($user) && !empty($password))
             {
-                $cls->conectar("epiz_33087609_Users", "sql107.epizy.com", "epiz_33087609", "OpCrBfrw9GxRPNZ");
+                $cls->conectar("xxxx", "xxxxx", "xxxxxx", "xxxxxxxx");
                 if($cls->msg == "")
                 {
                     if($cls->logar($user, sha1($password)))
