@@ -41,7 +41,7 @@ if(isset($_SESSION['ID_USER']))
   // Ridalva Souza -> 925500
   //echo $_SESSION['ID_USER']; 
   global $msg;   
-  $cls->conectar("epiz_33087609_Users", "sql107.epizy.com", "xxxxxxxx", "xxxxxx");
+  $cls->conectar("xxxxxxxx", "xxxxxxxxxxx", "xxxxxxxx", "xxxxxx");
   $dados = $cls->GetData($_SESSION['ID_USER']);
   $producto = $cls->GetProd('1000005');
   //-----------------------------Estava escrevendo aqui
