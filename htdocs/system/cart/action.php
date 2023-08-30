@@ -42,7 +42,7 @@ if(isset($_SESSION['ID_USER']))
 { //Thiago Sousa -> 926380
   // Ridalva Souza -> 925500
   //echo $_SESSION['ID_USER'];
-  $cls->conectar("epiz_33087609_Users", "sql107.epizy.com", "epiz_33087609", "OpCrBfrw9GxRPNZ");
+  $cls->conectar("xxxxxxx", "xxxxx", "xxxxx", "xxxxxxxx");
   $dados = $cls->GetData($_SESSION['ID_USER']);
 
   $compras = $cls->GetComp($_SESSION['ID_USER']);
