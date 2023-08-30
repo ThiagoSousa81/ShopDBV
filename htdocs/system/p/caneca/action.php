@@ -50,10 +50,10 @@ if(isset($_SESSION['ID_USER']))
     $hour = $now->format('H:i');
     if (!$producto[3] == 0) {                
         try {
-            $servidor = 'sql107.epizy.com';
-            $username = 'epiz_33087609';
-            $password = 'OpCrBfrw9GxRPNZ';
-            $database = 'epiz_33087609_Users';
+            $servidor = 'xxxxxxxxx';
+            $username = 'xxxxxxxxxx';
+            $password = 'xxxxxxx';
+            $database = 'xxxxxxxxxxxxxx';
             $conexao = mysql_connect($servidor, $username, $password) 
                     or die("Erro ao conectar ao banco de dados");
                 $db = mysql_select_db($database)
