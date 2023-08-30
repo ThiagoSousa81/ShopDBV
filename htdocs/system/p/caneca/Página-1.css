@@ -1,0 +1,174 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 650px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin: 44px auto 44px 0;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 574px;
+  background-image: url("images/Caneca.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 172px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.u-section-1 .u-icon-1 {
+  margin-left: 10px;
+  vertical-align: 0px;
+  font-size: 1.0417em;
+}
+
+.u-section-1 .u-layout-cell-3 {
+  min-height: 402px;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  margin: 85px auto 0;
+  padding: 10px 122px 10px 121px;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1.25rem;
+  margin: 87px 28px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 350px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 473px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 142px;
+  }
+
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 331px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 801px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 725px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 820px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 544px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 903px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 343px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 159px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-weight: 700;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-weight: 700;
+  }
+
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 324px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+    padding-right: 44px;
+    padding-bottom: 11px;
+    padding-left: 44px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
