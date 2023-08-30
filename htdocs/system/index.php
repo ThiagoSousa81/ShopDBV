@@ -35,10 +35,9 @@ $cls = new database;
     <?php
     session_start();
     if(isset($_SESSION['ID_USER']))
-    { //Thiago Sousa -> 926380
-      // Ridalva Souza -> 925500
+    { 
       //echo $_SESSION['ID_USER'];
-      $cls->conectar("epiz_33087609_Users", "sql107.epizy.com", "epiz_33087609", "OpCrBfrw9GxRPNZ");
+      $cls->conectar("xxxxxx", "xxxxxxxx", "xxxxxxxx", "xxxxxxx");
       $dados = $cls->GetData($_SESSION['ID_USER']);      
     ?>
     <header style="background-color: white; color: rgb(150 0 0)">
@@ -141,10 +140,10 @@ $cls = new database;
         <div class="u-expanded-width u-list u-list-1">
           <div class="u-repeater u-repeater-1">
             <?php
-            $servidor = 'sql107.epizy.com';
-            $username = 'epiz_33087609';
-            $password = 'OpCrBfrw9GxRPNZ';
-            $database = 'epiz_33087609_Users';
+            $servidor = 'xxxxxx';
+            $username = 'xxxxx';
+            $password = 'xxxxxx';
+            $database = 'xxxxxxxxx';
             $conexao = mysql_connect($servidor, $username, $password) 
               or die("Erro ao conectar ao banco de dados");
             $db = mysql_select_db($database);
